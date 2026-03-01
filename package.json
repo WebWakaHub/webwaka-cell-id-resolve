@@ -16,7 +16,10 @@
     "identity-access"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "@webwaka/organelle-discovery-registry": "workspace:*",
+    "@webwaka/organelle-subject-registry": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "jest": "^29.0.0",
